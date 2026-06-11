@@ -19,5 +19,7 @@ const products = [
   },
 ];
 
-const result = products.filter((product) => product.price >= 8000);
+// const result = products.filter((product) => product.price >= 8000);
+// console.log(result);
+const result = products.find((product) => product.name === "Samsung");
 console.log(result);
